@@ -1,0 +1,44 @@
+---
+title:  "Fail-safe"
+date:   2016-12-03
+categories: []
+tags: [rock climbing]
+---
+
+I've been climbing for well over a year now. Naturally, I learnt to belay like everyone else. Using a standard ‘ATC’ tubular belay device. Which looks something like this
+
+{% include image.html name="TubularBelay.jpg" caption="Photograph by Roylindman, distributed under a [CC BY-SA 3.0]" %}
+
+Here is how you probably started climbing.
+
+You spend an entire day learning about all the safety measures in place. You now know how much force your shiny new carabiner can handle in each axis. You also remember the _mantra_ that is instilled in you from the very beginning.
+
+> Never Let Go
+
+Seems easy enough. You are on high alert as it is your first day belaying and everything probably went well. You continue climbing regularly.
+
+It'd be great if it all ended there. Except it might not.
+
+I was lazing around at home on a Saturday afternoon when I received a text message, from a friend I hold dear, letting me know that he had taken a fall, a whopping 15m fall. He was climbing and someone didn't belay, not properly at least.
+
+He survived, and rather well for such a height. It could have been much worse. It does indeed get much worse for many others.
+
+Going back to your training day, you might have heard the instructor tell you about not letting go, even if you are in pain. You probably thought, of course! My friend's life is at stake, I'd hold on no matter what. Except your body doesn't work that way. Your instinct and in some cases involuntary response to pain is to let go. Sure there probably are some revered climbers out there who might have overcome this limitation. I bow to thee.
+
+This brings me to the title of this post, [Fail-safe](https://en.wikipedia.org/wiki/Fail-safe). In engineering, this is a very important design consideration. You look at what is the default state of things and how do you want your system to fail in that state. e.g
+
+* Doors with electronic locks fail-safe by opening when the power is cut, so as to prevent people from being trapped inside.
+* Pressure cookers have a safety valve that vents steam if the pressure inside reaches above a threshold and prevents a catastrophic explosion
+* Elevators' brake pads are held off by the tension of the cable holding the elevator up. If this cable breaks, the brakes engage.
+
+These fail safes aren't actually _that_ hard to implement. In fact there are several [belay devices](https://en.wikipedia.org/wiki/Belay_device#Assisted_braking) that exist in the market which can provide assisted braking. These are by no means foolproof, nothing ever is. These are at least, superior to the system in place today. Why is the adoption so poor?
+
+> Complacency
+
+People assume it won't happen to them. They think they are better than others. They have never felt a rope burn or their finger being caught in the belay device while lowering. They haven't seen mishap or had a close one go through one.
+
+I can't fathom why we teach the new generation of climbers with inferior tools in a sport that is inherently dangerous.
+
+I encourage everyone to look for assisted braking solutions, and if you are an instructor consider teaching with both traditional and newer devices highlighting the differences.
+
+ Every small step, makes it safer to step up :)
