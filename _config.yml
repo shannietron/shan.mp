@@ -3,7 +3,7 @@ title: Shanmugam MPl
 description: 'Engineer, analog electronics, π.'
 url: 'shan.mp'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-31591247-2'
 disqus_shortname: 'shannietron'
 
 author:
