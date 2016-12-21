@@ -3,6 +3,7 @@ title:  "Fail-safe"
 date:   2016-12-03
 categories: []
 tags: [rock climbing]
+comments: true
 ---
 
 I've been climbing for well over a year now. Naturally, I learnt to belay like everyone else. Using a standard ‘ATC’ tubular belay device. Which looks something like this

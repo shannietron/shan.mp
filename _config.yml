@@ -4,7 +4,7 @@ description: 'Engineer, analog electronics, π.'
 url: 'shan.mp'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'shannietron'
+disqus_shortname: 'shannietron'
 
 author:
   name: 'Shanmugam MPl'
