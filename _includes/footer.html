@@ -2,17 +2,22 @@
   <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
 </footer>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
-{% if site.google_analytics %}
+{% if site.google_analytics and jekyll.environment != "development" %}
 <!-- Google Analytics -->
+
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', '{{ site.google_analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
+<<<<<<< HEAD
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <!-- End Google Analytics -->
 {% endif %}
 
 
+=======
+{% endif %}
+>>>>>>> upstream/master
